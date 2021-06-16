@@ -146,7 +146,7 @@ button:hover::after {
 .section1 .row ul {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 35%;
     margin-top: 18px;
 }
 
@@ -295,7 +295,7 @@ button:hover::after {
 
 .section4 .product-portfolio .product1, .product3 {
     max-width: 305px;
-    max-height: 582px;
+    /*max-height: 582px;*/
     margin: 3% 3%;
 }
 
@@ -323,7 +323,7 @@ button:hover::after {
 
 .section4 .product2 {
     max-width: 338px;
-    max-height: 625px;
+    /*max-height: 625px;*/
     margin: 3% 3%;
 }
 
