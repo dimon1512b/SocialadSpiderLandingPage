@@ -410,24 +410,27 @@ button:hover::after {
 
 
 .footer .location {
-    width: 29px;
+    width: 30px;
     height: 33px;
 }
 
 .footer .mail {
-    width: 34px;
+    width: 30px;
     height: 27px;
     margin-top: 4%;
     margin-bottom: 4%;
 }
 
 .footer .phone {
-    width: 25px;
+    width: 30px;
     height: 26px;
 }
 
 .footer ul p {
     margin-bottom: 0;
+    margin-left: 4%;
+    min-height: 72px;
+    justify-content: center;
 }
 
 .footer .row-1 ul li {
@@ -435,8 +438,17 @@ button:hover::after {
     align-items: center;
 }
 
+.footer .col-sm-2 {
+    flex-basis: 12%;
+}
+
+.footer .col-sm-3 {
+    flex-basis: 42.6%;
+}
+
 .footer .col-sm-3, .col-sm-2 {
-    margin: 0 0.5% 0 0.5%;
+    margin: 0;
+    padding: 0;
 }
 
 .footer .col-sm-3 h4, .col-sm-2 h4 {
@@ -488,13 +500,13 @@ button:hover::after {
 }
 
 .footer .row-1 .col-sm-3 h4 {
-    text-align: right;
+    text-align: left;
 }
 
-.footer .col-sm-3 {
-    padding-left: 0;
-    padding-right: 0;
-}
+/*.footer .col-sm-3 {*/
+/*    padding-left: 0;*/
+/*    padding-right: 0;*/
+/*}*/
 
 .footer .col-sm-3 ul {
     padding-inline-start: 0;
